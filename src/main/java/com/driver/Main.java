@@ -21,15 +21,18 @@ public class Main {
      *
      * @param args
      */
-    public void main(String [] args){
+    public static void main(String [] args){
         Product p = new Product();
         
         System.out.println(p.product(5, 4));
         
         System.out.println(p.product(5, 4, 6));
-        
-        System.out.println(p.product(5.045, 4.4679));
-        
+
+        //double x = 5.045, y = 4.4679;
+
+
+        //System.out.println(p.product(x, y);
+
         
     } 
 }
