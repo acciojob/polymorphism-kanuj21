@@ -1,19 +1,21 @@
 package com.driver;
 
-public class Main {
-    class Product{
-        public int product(int x, int y){
-            return x * y;
-        }
-        public int product(int x, int y, int z) {
-            return x * y * z;
-        }
-        
-        public double product(double x, double y) {
-            return y * x;
-        }
-        
+class Product{
+    public int product(int x, int y){
+        return x * y;
     }
+    public int product(int x, int y, int z) {
+        return x * y * z;
+    }
+
+    public double product(double x, double y) {
+        return y * x;
+    }
+
+}
+
+public class Main {
+
     
     /**
      *
