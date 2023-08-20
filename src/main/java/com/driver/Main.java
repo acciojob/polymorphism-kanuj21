@@ -25,10 +25,10 @@ public class Main {
         
         System.out.println(p.product(5, 4, 6));
 
-        double x = 5.045, y = 4.4679;
+//        double x = , y = 4.4679;
 
 
-        System.out.println(p.product(x, y));
+        System.out.println(p.product(5.045, 2.4565465));
 
         
     } 
